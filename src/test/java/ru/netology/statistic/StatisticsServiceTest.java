@@ -16,6 +16,7 @@ public class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findMaxOneSumNegative() {
         StatisticsService service = new StatisticsService();
@@ -27,6 +28,7 @@ public class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findMaxIfAllSumsNegative() {
         StatisticsService service = new StatisticsService();
